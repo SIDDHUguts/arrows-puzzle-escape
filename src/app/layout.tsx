@@ -12,17 +12,17 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Arrows — Puzzle Escape · Investor Prototype",
   description:
-    "Arrows is a minimalist logic puzzle game where you extract arrows from intricate grids without causing collisions. Stress-free, handcrafted, infinitely replayable. An investor prototype by Lessmore GmbH.",
+    "Arrows is a minimalist logic puzzle game where you extract arrows from intricate grids without causing collisions. Stress-free, handcrafted, infinitely replayable. An investor prototype by SiddManeA productions.",
   keywords: [
     "Arrows",
     "Puzzle Escape",
-    "Lessmore GmbH",
+    "SiddManeA productions",
     "logic puzzle",
     "minimalist game",
     "relaxing puzzle",
     "investor prototype",
   ],
-  authors: [{ name: "Lessmore GmbH" }],
+  authors: [{ name: "SiddManeA productions" }],
   openGraph: {
     title: "Arrows — Puzzle Escape",
     description:

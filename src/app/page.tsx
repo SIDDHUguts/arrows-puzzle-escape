@@ -26,7 +26,7 @@ export default function Home() {
             <ArrowGrid level={currentLevel} arrows={arrows} />
           </div>
           <footer className="mt-auto border-t border-neutral-200 dark:border-neutral-800 py-4 text-center text-xs text-neutral-400">
-            Arrows — Puzzle Escape · Investor prototype by Lessmore GmbH
+            Arrows — Puzzle Escape · Investor prototype by SiddManeA productions
           </footer>
         </div>
       )}

@@ -34,7 +34,7 @@ export function Landing() {
               Arrows
             </span>
             <span className="text-xs text-neutral-400 ml-1 hidden sm:inline">
-              by Lessmore GmbH
+              by SiddManeA productions
             </span>
           </div>
           <nav className="flex items-center gap-1">
@@ -307,7 +307,7 @@ export function Landing() {
       <footer className="mt-auto border-t border-neutral-200 dark:border-neutral-800">
         <div className="max-w-5xl mx-auto px-4 py-6 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-neutral-500">
           <div>
-            Arrows — Puzzle Escape · Lessmore GmbH · Investor prototype
+            Arrows — Puzzle Escape · SiddManeA productions · Investor prototype
           </div>
           <div className="opacity-70">
             Minimalist logic puzzles · No timers · Handcrafted
