@@ -100,7 +100,15 @@ function generate(spec: Spec): Level | null {
         { id: 'tmp', row: pos.row, col: pos.col, direction: dir },
       ];
       const grid = buildGrid(
-        { rows: spec.rows, cols: spec.cols, walls: spec.walls, arrows: [] },
+        {
+          rows: spec.rows, cols: spec.cols, walls: spec.walls, arrows: [],
+          id: 0,
+          slug: '',
+          title: '',
+          hintsAllowed: 0,
+          subtitle: '',
+          tier: 'intro'
+        },
         tempArrows
       );
       const r = tryExtract(grid, 'tmp');
@@ -352,8 +360,8 @@ for (const spec of SPECS) {
     console.error(`✗ Failed to generate level ${spec.id} "${spec.title}"`);
     process.exit(1);
   }
-  generated.push(level);
-  console.log(`✓ Level ${spec.id} "${spec.title}" — ${spec.tier} — ${level.arrows.length} arrows`);
+  generated.push(level!);
+  console.log(`✓ Level ${spec.id} "${spec.title}" — ${spec.tier} — ${level!.arrows.length} arrows`);
 }
 
 // Output TypeScript.
