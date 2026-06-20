@@ -36,13 +36,19 @@ yarn-error.log*
 # vercel
 .vercel
 
+# database files (SQLite local dev)
+/db/*.db
+/db/*.db-journal
+
+# z-ai sandbox internals
+/.zscripts/
+/.z-ai-config/
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
 local-*
 .claude
-.z-ai-config
 *.log
 dev.log
 dev.out.log
